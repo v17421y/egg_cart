@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/script.js"></script>
+    <title>egg_cart</title>
+</head>
+<body>
+    <h1>ЯИЧНИЦА ГЛАЗУНЬЯ ИЗ 3-ЁХ ЯИЦ</h1>
+
+    <h1>250 ₽ [400 гр.]</h1>
+
+    <h2>Выберите кол-во порций:</h2>
+
+    <div>
+        <h3 class="counter">1</h3>
+    </div>
+    <div>
+        <button onclick="plusClick()">Добавить ещё порцию</button>
+        <button onclick="minusClick()">Убрать  порцию</button>
+        <button onclick="clearClick()">Сброс</button>
+    </div>
+
+    <h2>Сделайте вашу глазунью ещё вкуснее, выбрав добавки:</h2>
+
+    <h3>Тигровые креветки / [60 гр.] - 450 ₽</h3>
+
+    <input type="checkbox" class="c1" value="+ Дополнительно: Тигровые креветки / [60 гр.] - 450 ₽"/>
+
+    <h3>Томаты / [50 гр.] - 80 ₽</h3>
+
+    <input type="checkbox" class="c2" value="+ Дополнительно: Томаты / [50 гр.] - 80 ₽"/>
+
+    <h3>Бекон / [16 гр.] - 120 ₽</h3>
+
+    <input type="checkbox" class="c3" value="+ Дополнительно: Бекон / [16 гр.] - 120 ₽"/>
+
+    <h3>Сыр / [30 гр.] - 80 ₽</h3>
+
+    <input type="checkbox" class="c4" value="+ Дополнительно: Сыр / [30 гр.] - 80 ₽"/>
+
+    <div class="out0"></div>
+
+    <button class="cartBtn" onclick="cartClick()">Добавить в корзину</button>
+
+    <!--
+        
+    <h2>Ваш заказ:</h2>
+
+    <div class="outField0"></div>
+    <div class="outField"></div>
+    <div class="outField2"></div>
+    <div class="outField3"></div>
+    <div class="outField4"></div>
+
+    <div class="outPriceField"></div>
+    
+    <h2>Выберите способ оплаты:</h2>
+
+    <button onclick="buyClickN()">Наличными</button>
+    <button onclick="buyClickK()">Картой</button>
+
+    !-->
+</body>
+</html>
